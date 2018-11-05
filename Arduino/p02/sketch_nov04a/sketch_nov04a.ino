@@ -23,11 +23,11 @@ void setup()
           digitalWrite(4, LOW);
           digitalWrite(5, HIGH);
 
-          delay(250); //wait for a quarter second
+          delay(1000); //wait for a quarter second
 
           //toggle the LEDs
           digitalWrite(4, HIGH);
           digitalWrite(5, LOW);
-          delay(250); //wait for a quarter second
+          delay(1000); //wait for a quarter second
           }
     }
